@@ -1,0 +1,21 @@
+[
+  {
+    "id": "rule_aapl_150",
+    "type": "level",
+    "instrument": "AAPL",
+    "level": 150.0
+  },
+  {
+    "id": "rule_msft_level",
+    "type": "level",
+    "instrument": "MSFT",
+    "level": 225.0
+  },
+  {
+    "id": "rule_msft_sma",
+    "type": "ma_cross",
+    "instrument": "MSFT",
+    "short_window": 2,
+    "long_window": 3
+  }
+]
